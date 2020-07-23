@@ -4,7 +4,7 @@ import Pages.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class SearchResultPage extends BasePage {
+public class    SearchResultPage extends BasePage {
     By destinationHeaderLocator = By.xpath("//h1[@class='destination-title']");
     By destinationPropertyLandmarkText = By.xpath("//label[text()='Destination, property, or landmark']/following-sibling::input[@id='q-destination']");
     By priceSortLocator=By.xpath("//a[@data-menu='sort-submenu-price']");

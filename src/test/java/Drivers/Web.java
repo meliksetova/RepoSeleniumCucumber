@@ -25,5 +25,8 @@ public class Web {
         driver.quit();
     }
 
+
+    public static void maximize(){ driver.manage().window().maximize();}
+
 }
 

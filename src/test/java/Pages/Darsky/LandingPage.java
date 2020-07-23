@@ -73,7 +73,7 @@ public class LandingPage extends BasePage {
     public boolean compare(){
         boolean equal=true;
         for (int i=0; i<3; i++ ){
-            int temp=Math.round (converttempCtoF(temperaturesC.get(i)));
+            int temp=Math.round (convertTempCtoF(temperaturesC.get(i)));
             if(temperaturesF.get(i)!=temp && temperaturesF.get(i)!=++temp && temperaturesF.get(i)!=--temp ){
                 equal=false;
 
